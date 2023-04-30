@@ -130,3 +130,12 @@
 - Each List items/components need to represented uniquely to optimize the rendering cycle.
 - When ever we write a map write a key for each item.
 - Don't use index as a key.
+
+10. Type of export?
+
+- Default :
+  - synatx: export default EXPORT_NAME
+  - Used when only 1 export is there
+- Named :
+  - syntax: export EXPORT_NAME
+  - Used when multiple exports are there
