@@ -139,3 +139,66 @@
 - Named :
   - syntax: export EXPORT_NAME
   - Used when multiple exports are there
+
+11. Why react is fast?
+
+- It can do `efficient DOM manipulation`.
+
+12. What is a `React Hook` ?
+
+- A normal js utility function by react to for state management.
+- 2 hooks that are mostly used:
+  - useState() - Superpowerful state variable
+  - useEffect()
+- syntax:
+
+```
+  const [restaurantList, functionToUpdateStateVariable] = useState(defaultValue);
+```
+
+- ex:
+
+```
+  import restaurants from '../../restaurants.json';
+  import RestaurantCard from './RestaurantCard';
+  import { useState } from 'react';
+
+  const Body = () => {
+    // Local state variable
+    const [restaurantList, setRestaurantList] = useState(restaurants);
+
+    return (
+      <div className="body">
+        <div className="filter">
+          <button
+            className="filter-btn"
+            onClick={() => {
+              const filteredList = restaurants.filter(
+                (res) => res.data.avgRating > 4
+              );
+              setRestaurantList(filteredList);
+            }}
+          >
+            Top Rated Restaurants
+          </button>
+        </div>
+        <div className="res-container">
+          {/* Restaurant Card */}
+          {restaurantList.map((restaurant) => (
+            <RestaurantCard key={restaurant.data.id} resData={restaurant} />
+          ))}
+        </div>
+      </div>
+    );
+  };
+```
+
+- We can not update function assigned with useState()
+- Whenever any state variable chnages react re-render the UI.
+
+13. What is `React Fiber`?
+
+- Also known as `Reconciliation Algorithm`. - came up in react 16
+- React creates a virtual DOM (represenatation of actual DOM, is a nested object).
+- This algo find the diff b/w old & new virtual DOM & optimally update the DOM.
+- `https://github.com/acdlite/react-fiber-architecture`
