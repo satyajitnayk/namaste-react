@@ -5,7 +5,7 @@
 - `package.json`:
   - configuration file for npm, containing approx version of package installed.
   - Every dependecies has `package.json` in their directory.
-- `package-lock.json`: - contains track of exact version of each package installed to avoid any production build.
+- `package-lock.json`: - contains track of exact version of each package installed to avoid any build error in production.
 - Both files need to be pushed to github.
 
 2. What are the use cases of `parcel` package?
@@ -52,7 +52,7 @@
 - JSX => transpiled to React element => JS element => rendered as HTML element
 - We have to use `camelCase` while `assigning attributes to JSX`.
 - To write JSX in multiple lines we need to wrap it around `()`.
-- It takes care of `cross site scripting` by `sanitize` the data.
+- JSX `sanitize` the data to avoid `cross site scripting`.
 
 5. React Component(2 types)
 
@@ -65,7 +65,7 @@
       return (some JSX)
     }
   ```
-- Components can be used inside other component like: (Also called component composition)
+- Components can be used inside other component (Also called component composition)
   ```
     const TitleComponent = () => (
       <h1 id="heading" className="heading" tabIndex={1}>
@@ -120,3 +120,13 @@
       <div>I am Satya</hello>
     </>
   ```
+
+8. `Config Driven UI`:
+
+- UI is driven by api response.
+
+9. Why we need `key` when iterating ?(very important)
+
+- Each List items/components need to represented uniquely to optimize the rendering cycle.
+- When ever we write a map write a key for each item.
+- Don't use index as a key.

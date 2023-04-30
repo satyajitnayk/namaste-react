@@ -1,0 +1,1741 @@
+[
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "655341",
+      "name": "KFC",
+      "uuid": "94c6e9c8-609a-4a05-9eff-b4114e61bcb8",
+      "city": "57",
+      "area": "Baramunda",
+      "totalRatingsString": "100+ ratings",
+      "cloudinaryImageId": "56c9ab92bd79745fd152a30fa2525426",
+      "cuisines": ["Burgers", "Biryani", "American", "Snacks", "Fast Food"],
+      "tags": [],
+      "costForTwo": 40000,
+      "costForTwoString": "₹400 FOR TWO",
+      "deliveryTime": 30,
+      "minDeliveryTime": 30,
+      "maxDeliveryTime": 30,
+      "slaString": "30 MINS",
+      "lastMileTravel": 4.199999809265137,
+      "slugs": {
+        "restaurant": "kfc-baramunda-khandagiri",
+        "city": "bhubaneswar"
+      },
+      "cityState": "57",
+      "address": "KFC Restaurant, Plot No-M-15, Shop No-G-102 & F-202, Right Wing, PGL Citi Mart, NH-5, Baramunda, H.B. Colony, Ward 24, BHUBANESWAR MUNICIPAL CORPORATION, Orissa-751003",
+      "locality": "Housing Board Colony",
+      "parentId": 547,
+      "unserviceable": false,
+      "veg": false,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "aggregatedDiscountInfo": {
+        "header": "20% off",
+        "shortDescriptionList": [
+          {
+            "meta": "20% off | Use SWIGGYIT",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "20% off up to ₹50 on select items | Use code SWIGGYIT",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "aggregatedDiscountInfoV2": {
+        "header": "20% OFF",
+        "shortDescriptionList": [
+          {
+            "meta": "Use SWIGGYIT",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "20% off up to ₹50 on select items | Use code SWIGGYIT",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "ribbon": [{ "type": "PROMOTED" }],
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          { "name": "distance", "fee": 3400, "message": "" },
+          { "name": "time", "fee": 0, "message": "" },
+          { "name": "special", "fee": 0, "message": "" }
+        ],
+        "totalFees": 3400,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "3400",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "cid=6536730~p=1~eid=00000187-d0d6-7354-1470-b13800a60170",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "4.1 kms",
+      "hasSurge": false,
+      "sla": {
+        "restaurantId": "655341",
+        "deliveryTime": 30,
+        "minDeliveryTime": 30,
+        "maxDeliveryTime": 30,
+        "lastMileTravel": 4.199999809265137,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": true,
+      "avgRating": "4.0",
+      "totalRatings": 100,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "110185",
+      "name": "Chapan Bhog",
+      "uuid": "1e057300-fcc8-45d0-9263-68a1671aff6e",
+      "city": "57",
+      "area": "Jayadev Vihar",
+      "totalRatingsString": "10000+ ratings",
+      "cloudinaryImageId": "x6x1srh1d4mlnyppoyvw",
+      "cuisines": ["Sweets", "Indian", "Desserts"],
+      "tags": [],
+      "costForTwo": 15000,
+      "costForTwoString": "₹150 FOR TWO",
+      "deliveryTime": 17,
+      "minDeliveryTime": 17,
+      "maxDeliveryTime": 17,
+      "slaString": "17 MINS",
+      "lastMileTravel": 1.100000023841858,
+      "slugs": {
+        "restaurant": "chhapan-bhog-jaydev-vihar-nayapalli",
+        "city": "bhubaneswar"
+      },
+      "cityState": "57",
+      "address": "N6/317 , Biju Pattanaik College Road , in front of Bank of Baroda",
+      "locality": "Jayadev Vihar Road",
+      "parentId": 58021,
+      "unserviceable": false,
+      "veg": true,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "aggregatedDiscountInfo": {
+        "header": "20% off",
+        "shortDescriptionList": [
+          {
+            "meta": "20% off | Use TRYNEW",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "20% off up to ₹50 | Use code TRYNEW",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "aggregatedDiscountInfoV2": {
+        "header": "20% OFF",
+        "shortDescriptionList": [
+          {
+            "meta": "Use TRYNEW",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "20% off up to ₹50 | Use code TRYNEW",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          { "name": "distance", "fee": 2700, "message": "" },
+          { "name": "time", "fee": 0, "message": "" },
+          { "name": "special", "fee": 0, "message": "" }
+        ],
+        "totalFees": 2700,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "2700",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "1.1 kms",
+      "hasSurge": false,
+      "sla": {
+        "restaurantId": "110185",
+        "deliveryTime": 17,
+        "minDeliveryTime": 17,
+        "maxDeliveryTime": 17,
+        "lastMileTravel": 1.100000023841858,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": false,
+      "avgRating": "4.2",
+      "totalRatings": 10000,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "119868",
+      "name": "House Of Biryani",
+      "uuid": "6731a18e-6a8f-456f-b75b-1a31560485f6",
+      "city": "57",
+      "area": "Jayadev Vihar",
+      "totalRatingsString": "10000+ ratings",
+      "cloudinaryImageId": "z3gvpb8x9yqdeg9eqnrq",
+      "cuisines": ["Indian", "Chinese"],
+      "tags": [],
+      "costForTwo": 20000,
+      "costForTwoString": "₹200 FOR TWO",
+      "deliveryTime": 21,
+      "minDeliveryTime": 21,
+      "maxDeliveryTime": 21,
+      "slaString": "21 MINS",
+      "lastMileTravel": 1.7999999523162842,
+      "slugs": {
+        "restaurant": "house-of-biryani-jaydev-vihar-jayadev-vihar",
+        "city": "bhubaneswar"
+      },
+      "cityState": "57",
+      "address": "Plot N0- 256, N6, IRC Village, Jaydev Vihar, Bhubaneswar. 751013",
+      "locality": "Jayadev Vihar Road",
+      "parentId": 9334,
+      "unserviceable": false,
+      "veg": false,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "aggregatedDiscountInfo": {
+        "header": "Flat ₹125 off",
+        "shortDescriptionList": [
+          {
+            "meta": "Flat ₹125 off on orders above ₹249",
+            "discountType": "Flat",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "Flat ₹125 off on orders above ₹249 | Use code MATCHDEAL125",
+            "discountType": "Flat",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "aggregatedDiscountInfoV2": {
+        "header": "₹125 OFF",
+        "shortDescriptionList": [
+          {
+            "meta": "Use MATCHDEAL125",
+            "discountType": "Flat",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "Flat ₹125 off on orders above ₹249 | Use code MATCHDEAL125",
+            "discountType": "Flat",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          { "name": "distance", "fee": 2700, "message": "" },
+          { "name": "time", "fee": 0, "message": "" },
+          { "name": "special", "fee": 0, "message": "" }
+        ],
+        "totalFees": 2700,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "2700",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "1.7 kms",
+      "hasSurge": false,
+      "sla": {
+        "restaurantId": "119868",
+        "deliveryTime": 21,
+        "minDeliveryTime": 21,
+        "maxDeliveryTime": 21,
+        "lastMileTravel": 1.7999999523162842,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": false,
+      "avgRating": "3.6",
+      "totalRatings": 10000,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "92292",
+      "name": "Burger King",
+      "uuid": "b248fe17-bac2-48fd-962d-47e3026e4ac6",
+      "city": "57",
+      "area": "Patia Village",
+      "totalRatingsString": "10000+ ratings",
+      "cloudinaryImageId": "28fb13049b4e55297bb3f703cde63c35",
+      "cuisines": ["Burgers", "American"],
+      "tags": [],
+      "costForTwo": 35000,
+      "costForTwoString": "₹350 FOR TWO",
+      "deliveryTime": 28,
+      "minDeliveryTime": 28,
+      "maxDeliveryTime": 28,
+      "slaString": "28 MINS",
+      "lastMileTravel": 6.699999809265137,
+      "slugs": {
+        "restaurant": "burger-king-kiit-square-chandrashekarpur",
+        "city": "bhubaneswar"
+      },
+      "cityState": "57",
+      "address": "Burger King India PVT LTD,Plot No-516/1761/3850,Khata no 474/2193,Patia Village,KIIT Square, Bhubaneswar ,Odisha 751024",
+      "locality": "KIIT Square",
+      "parentId": 166,
+      "unserviceable": false,
+      "veg": false,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "aggregatedDiscountInfo": {
+        "header": "Get every item under 129",
+        "shortDescriptionList": [
+          {
+            "meta": "Get every item under 129",
+            "discountType": "FinalPrice",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "Get every item under 129",
+            "discountType": "FinalPrice",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "aggregatedDiscountInfoV2": {
+        "header": "",
+        "shortDescriptionList": [
+          {
+            "meta": "",
+            "discountType": "FinalPrice",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "Get every item under 129",
+            "discountType": "FinalPrice",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "ribbon": [{ "type": "PROMOTED" }],
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          { "name": "distance", "fee": 4800, "message": "" },
+          { "name": "time", "fee": 0, "message": "" },
+          { "name": "special", "fee": 0, "message": "" }
+        ],
+        "totalFees": 4800,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "4800",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "cid=6561106~p=4~eid=00000187-d0d6-7354-1470-b13900a6047f",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "6.6 kms",
+      "hasSurge": false,
+      "sla": {
+        "restaurantId": "92292",
+        "deliveryTime": 28,
+        "minDeliveryTime": 28,
+        "maxDeliveryTime": 28,
+        "lastMileTravel": 6.699999809265137,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": true,
+      "avgRating": "4.4",
+      "totalRatings": 10000,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "220360",
+      "name": "Priya",
+      "uuid": "a60c545b-2fb7-46da-863d-627d6e057299",
+      "city": "57",
+      "area": "Jayadev Vihar",
+      "totalRatingsString": "10000+ ratings",
+      "cloudinaryImageId": "oivksbtnt4ufouny0srf",
+      "cuisines": ["South Indian", "North Indian", "Tandoor"],
+      "tags": [],
+      "costForTwo": 25000,
+      "costForTwoString": "₹250 FOR TWO",
+      "deliveryTime": 25,
+      "minDeliveryTime": 25,
+      "maxDeliveryTime": 25,
+      "slaString": "25 MINS",
+      "lastMileTravel": 0.800000011920929,
+      "slugs": {
+        "restaurant": "priya-jayadev-vihar-jayadev-vihar",
+        "city": "bhubaneswar"
+      },
+      "cityState": "57",
+      "address": "Plot No-2101,Jayadev Vihar,Nayapalli,Bhubaneswar",
+      "locality": "Jaydev Vihar",
+      "parentId": 161324,
+      "unserviceable": false,
+      "veg": true,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "aggregatedDiscountInfo": {
+        "header": "Flat ₹125 off",
+        "shortDescriptionList": [
+          {
+            "meta": "Flat ₹125 off on orders above ₹249",
+            "discountType": "Flat",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "Flat ₹125 off on orders above ₹249 | Use code MATCHDEAL125",
+            "discountType": "Flat",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "aggregatedDiscountInfoV2": {
+        "header": "₹125 OFF",
+        "shortDescriptionList": [
+          {
+            "meta": "Use MATCHDEAL125",
+            "discountType": "Flat",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "Flat ₹125 off on orders above ₹249 | Use code MATCHDEAL125",
+            "discountType": "Flat",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          { "name": "distance", "fee": 2700, "message": "" },
+          { "name": "time", "fee": 0, "message": "" },
+          { "name": "special", "fee": 0, "message": "" }
+        ],
+        "totalFees": 2700,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "2700",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "0.8 kms",
+      "hasSurge": false,
+      "sla": {
+        "restaurantId": "220360",
+        "deliveryTime": 25,
+        "minDeliveryTime": 25,
+        "maxDeliveryTime": 25,
+        "lastMileTravel": 0.800000011920929,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": false,
+      "avgRating": "4.1",
+      "totalRatings": 10000,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "202309",
+      "name": "Hotel Charlie",
+      "uuid": "74d10e15-6ffd-42ff-b01e-8088ebe467e1",
+      "city": "57",
+      "area": "Bomikhal",
+      "totalRatingsString": "100+ ratings",
+      "cloudinaryImageId": "ztctnfkrifs9pvprqqtk",
+      "cuisines": ["Biryani", "Chinese", "Indian"],
+      "tags": [],
+      "costForTwo": 20000,
+      "costForTwoString": "₹200 FOR TWO",
+      "deliveryTime": 33,
+      "minDeliveryTime": 33,
+      "maxDeliveryTime": 33,
+      "slaString": "33 MINS",
+      "lastMileTravel": 5,
+      "slugs": {
+        "restaurant": "hotel-charlie-rasulgarh-rasulgarh",
+        "city": "bhubaneswar"
+      },
+      "cityState": "57",
+      "address": "Hotel Charlie, Bomikhal, Cuttack Puri Road, Near Bomikhal Durga Puja Mandap, Bhubaneswar, Odisha, PIN-751010 ",
+      "locality": "Cuttack Puri Road",
+      "parentId": 18649,
+      "unserviceable": false,
+      "veg": false,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "ribbon": [{ "type": "PROMOTED" }],
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          { "name": "distance", "fee": 4100, "message": "" },
+          { "name": "time", "fee": 0, "message": "" },
+          { "name": "special", "fee": 0, "message": "" }
+        ],
+        "totalFees": 4100,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "4100",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "cid=6568424~p=7~eid=00000187-d0d6-7354-1470-b13a00a60738",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "5 kms",
+      "hasSurge": false,
+      "sla": {
+        "restaurantId": "202309",
+        "deliveryTime": 33,
+        "minDeliveryTime": 33,
+        "maxDeliveryTime": 33,
+        "lastMileTravel": 5,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": true,
+      "avgRating": "4.0",
+      "totalRatings": 100,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "305733",
+      "name": "BREW XPRESZ",
+      "uuid": "a17cb17d-c54c-4315-a5bd-4d1de4af4ea1",
+      "city": "57",
+      "area": "Jayadev Vihar",
+      "totalRatingsString": "1000+ ratings",
+      "cloudinaryImageId": "havcrzaqwr95js0pukgg",
+      "cuisines": ["Pizzas", "Pastas", "Beverages"],
+      "tags": [],
+      "costForTwo": 30000,
+      "costForTwoString": "₹300 FOR TWO",
+      "deliveryTime": 28,
+      "minDeliveryTime": 28,
+      "maxDeliveryTime": 28,
+      "slaString": "28 MINS",
+      "lastMileTravel": 0.4000000059604645,
+      "slugs": {
+        "restaurant": "brew-xpresz-sahid-nagar-sahid-nagar",
+        "city": "bhubaneswar"
+      },
+      "cityState": "57",
+      "address": "Plot no 100  Jaydev Vihar",
+      "locality": "Doordarshan Colony",
+      "parentId": 49950,
+      "unserviceable": false,
+      "veg": false,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "aggregatedDiscountInfo": {
+        "header": "Flat ₹125 off",
+        "shortDescriptionList": [
+          {
+            "meta": "Flat ₹125 off on orders above ₹249",
+            "discountType": "Flat",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "Flat ₹125 off on orders above ₹249 | Use code MATCHDEAL125",
+            "discountType": "Flat",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "aggregatedDiscountInfoV2": {
+        "header": "₹125 OFF",
+        "shortDescriptionList": [
+          {
+            "meta": "Use MATCHDEAL125",
+            "discountType": "Flat",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "Flat ₹125 off on orders above ₹249 | Use code MATCHDEAL125",
+            "discountType": "Flat",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          { "name": "distance", "fee": 2700, "message": "" },
+          { "name": "time", "fee": 0, "message": "" },
+          { "name": "special", "fee": 0, "message": "" }
+        ],
+        "totalFees": 2700,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "2700",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "0.4 kms",
+      "hasSurge": false,
+      "sla": {
+        "restaurantId": "305733",
+        "deliveryTime": 28,
+        "minDeliveryTime": 28,
+        "maxDeliveryTime": 28,
+        "lastMileTravel": 0.4000000059604645,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": false,
+      "avgRating": "3.2",
+      "totalRatings": 1000,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "530520",
+      "name": "BIRYANI HOME",
+      "uuid": "18ff8695-0c26-497a-b756-0ba49dba6126",
+      "city": "57",
+      "area": "Jayadev Vihar",
+      "totalRatingsString": "100+ ratings",
+      "cloudinaryImageId": "v81u2fsevx7hbvqwhvmm",
+      "cuisines": ["Biryani", "North Indian", "Indian", "Snacks"],
+      "tags": [],
+      "costForTwo": 24900,
+      "costForTwoString": "₹249 FOR TWO",
+      "deliveryTime": 31,
+      "minDeliveryTime": 31,
+      "maxDeliveryTime": 31,
+      "slaString": "31 MINS",
+      "lastMileTravel": 0.4000000059604645,
+      "slugs": {
+        "restaurant": "biryani-home-sahid-nagar-sahid-nagar-2",
+        "city": "bhubaneswar"
+      },
+      "cityState": "57",
+      "address": "BDA Colony, Doordarshan Colony, Jayadev Vihar,Plot no 16,HIG BDA Colony.Near relience Foot print , Bhubaneswar 751013 Odisha, India",
+      "locality": "BDA Colony",
+      "parentId": 304457,
+      "unserviceable": false,
+      "veg": false,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "aggregatedDiscountInfo": {
+        "header": "50% off",
+        "shortDescriptionList": [
+          {
+            "meta": "50% off | Use TRYNEW",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "50% off | Use code TRYNEW",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "aggregatedDiscountInfoV2": {
+        "header": "50% OFF",
+        "shortDescriptionList": [
+          {
+            "meta": "Use TRYNEW",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "50% off | Use code TRYNEW",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          { "name": "distance", "fee": 2700, "message": "" },
+          { "name": "time", "fee": 0, "message": "" },
+          { "name": "special", "fee": 0, "message": "" }
+        ],
+        "totalFees": 2700,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "2700",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "0.4 kms",
+      "hasSurge": false,
+      "sla": {
+        "restaurantId": "530520",
+        "deliveryTime": 31,
+        "minDeliveryTime": 31,
+        "maxDeliveryTime": 31,
+        "lastMileTravel": 0.4000000059604645,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": false,
+      "avgRating": "3.4",
+      "totalRatings": 100,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "108474",
+      "name": "Jugaad Jn",
+      "uuid": "43ab0aaa-dd37-4402-859d-886ab4cb91eb",
+      "city": "57",
+      "area": "Lakshmi Sagar",
+      "totalRatingsString": "10000+ ratings",
+      "cloudinaryImageId": "i5yrlndlesycufqwzzso",
+      "cuisines": ["North Indian", "Snacks", "Indian", "Desserts", "Sweets"],
+      "tags": [],
+      "costForTwo": 25000,
+      "costForTwoString": "₹250 FOR TWO",
+      "deliveryTime": 36,
+      "minDeliveryTime": 36,
+      "maxDeliveryTime": 36,
+      "slaString": "36 MINS",
+      "lastMileTravel": 6.5,
+      "slugs": {
+        "restaurant": "jugaad-jn-lakshmi-sagar-old-bbsr",
+        "city": "bhubaneswar"
+      },
+      "cityState": "57",
+      "address": "Mahadev Campus, Laxmi Sagar Square, Cuttack Puri Road, Lakshmi Sagar, Bhubaneshwar",
+      "locality": "Cuttack Puri Road",
+      "parentId": 9963,
+      "unserviceable": false,
+      "veg": true,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "aggregatedDiscountInfo": {
+        "header": "50% off",
+        "shortDescriptionList": [
+          {
+            "meta": "50% off | Use TRYNEW",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "50% off up to ₹100 | Use code TRYNEW",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "aggregatedDiscountInfoV2": {
+        "header": "50% OFF",
+        "shortDescriptionList": [
+          {
+            "meta": "Use TRYNEW",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "50% off up to ₹100 | Use code TRYNEW",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "ribbon": [{ "type": "PROMOTED" }],
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          { "name": "distance", "fee": 4800, "message": "" },
+          { "name": "time", "fee": 0, "message": "" },
+          { "name": "special", "fee": 0, "message": "" }
+        ],
+        "totalFees": 4800,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "4800",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "cid=6542092~p=10~eid=00000187-d0d6-7354-1470-b13b00a60a4c",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "6.5 kms",
+      "hasSurge": false,
+      "sla": {
+        "restaurantId": "108474",
+        "deliveryTime": 36,
+        "minDeliveryTime": 36,
+        "maxDeliveryTime": 36,
+        "lastMileTravel": 6.5,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": true,
+      "avgRating": "4.2",
+      "totalRatings": 10000,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "128271",
+      "name": "Cream Stone Ice Cream",
+      "uuid": "2aabdf54-4edb-42b6-9307-dd3f6857ca22",
+      "city": "57",
+      "area": "Jayadev Vihar",
+      "totalRatingsString": "1000+ ratings",
+      "cloudinaryImageId": "0465abc3ad7327522519d6a195d10dfc",
+      "cuisines": ["Ice Cream", "Desserts", "Beverages"],
+      "tags": [],
+      "costForTwo": 20000,
+      "costForTwoString": "₹200 FOR TWO",
+      "deliveryTime": 23,
+      "minDeliveryTime": 23,
+      "maxDeliveryTime": 23,
+      "slaString": "23 MINS",
+      "lastMileTravel": 0.4000000059604645,
+      "slugs": {
+        "restaurant": "cream-stone-pal-heights-jayadev-vihar",
+        "city": "bhubaneswar"
+      },
+      "cityState": "57",
+      "address": "J7, Pal Height Ground Floor, Nandankanan Road, Jayadev Vihar, Bhubaneshwar",
+      "locality": "Nandankanan Road",
+      "parentId": 289,
+      "unserviceable": false,
+      "veg": true,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          { "name": "distance", "fee": 2700, "message": "" },
+          { "name": "time", "fee": 0, "message": "" },
+          { "name": "special", "fee": 0, "message": "" }
+        ],
+        "totalFees": 2700,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "2700",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "0.4 kms",
+      "hasSurge": false,
+      "sla": {
+        "restaurantId": "128271",
+        "deliveryTime": 23,
+        "minDeliveryTime": 23,
+        "maxDeliveryTime": 23,
+        "lastMileTravel": 0.4000000059604645,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": false,
+      "avgRating": "4.6",
+      "totalRatings": 1000,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "88740",
+      "name": "Sanu Family Restaurant",
+      "uuid": "b39d54f5-db93-485d-a906-7cf9c8f35628",
+      "city": "57",
+      "area": "Chandrasekharpur",
+      "totalRatingsString": "10000+ ratings",
+      "cloudinaryImageId": "4fb13a469e46aa8ad9f30ff5a647ee2b",
+      "cuisines": [
+        "North Indian",
+        "Biryani",
+        "Tandoor",
+        "Chinese",
+        "Snacks",
+        "Desserts",
+        "Beverages"
+      ],
+      "tags": [],
+      "costForTwo": 25000,
+      "costForTwoString": "₹250 FOR TWO",
+      "deliveryTime": 30,
+      "minDeliveryTime": 30,
+      "maxDeliveryTime": 30,
+      "slaString": "30 MINS",
+      "lastMileTravel": 3.5999999046325684,
+      "slugs": {
+        "restaurant": "sanu-family-restaurant-chandrasekharpur-patia",
+        "city": "bhubaneswar"
+      },
+      "cityState": "57",
+      "address": "House no-HIG-712,ground floor,Block-7,Housing board colony,Phase-1,CSPUR(Near Mitha Pitha)",
+      "locality": "Niladri Vihar Road",
+      "parentId": 177793,
+      "unserviceable": false,
+      "veg": false,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "aggregatedDiscountInfo": {
+        "header": "60% off",
+        "shortDescriptionList": [
+          {
+            "meta": "60% off | Use TRYNEW",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "60% off up to ₹120 | Use code TRYNEW",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "aggregatedDiscountInfoV2": {
+        "header": "60% OFF",
+        "shortDescriptionList": [
+          {
+            "meta": "Use TRYNEW",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "60% off up to ₹120 | Use code TRYNEW",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "ribbon": [{ "type": "PROMOTED" }],
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          { "name": "distance", "fee": 3400, "message": "" },
+          { "name": "time", "fee": 0, "message": "" },
+          { "name": "special", "fee": 0, "message": "" }
+        ],
+        "totalFees": 3400,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "3400",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "cid=6588553~p=13~eid=00000187-d0d6-7354-1470-b13c00a60d57",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "3.5 kms",
+      "hasSurge": false,
+      "sla": {
+        "restaurantId": "88740",
+        "deliveryTime": 30,
+        "minDeliveryTime": 30,
+        "maxDeliveryTime": 30,
+        "lastMileTravel": 3.5999999046325684,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": true,
+      "avgRating": "3.4",
+      "totalRatings": 10000,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "335166",
+      "name": "Pabrai's Fresh and Naturelle Ice Creams",
+      "uuid": "790d1d71-7ad7-4fa9-96f8-a38c9d98d3a3",
+      "city": "57",
+      "area": "Jayadev Vihar",
+      "totalRatingsString": "100+ ratings",
+      "cloudinaryImageId": "crssweresnbltcuuhh7i",
+      "cuisines": ["Ice Cream"],
+      "tags": [],
+      "costForTwo": 30000,
+      "costForTwoString": "₹300 FOR TWO",
+      "deliveryTime": 14,
+      "minDeliveryTime": 14,
+      "maxDeliveryTime": 14,
+      "slaString": "14 MINS",
+      "lastMileTravel": 0.4000000059604645,
+      "slugs": {
+        "restaurant": "pabrai’s-fresh-&-naturelle-ice-creams-sahid-nagar-sahid-nagar",
+        "city": "bhubaneswar"
+      },
+      "cityState": "57",
+      "address": "105 JAYADEV VIHAR NEAR AMUL STORE BHUBANESWAR 751013",
+      "locality": "Sriram Nagar",
+      "parentId": 692,
+      "unserviceable": false,
+      "veg": true,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          { "name": "distance", "fee": 2700, "message": "" },
+          { "name": "time", "fee": 0, "message": "" },
+          { "name": "special", "fee": 0, "message": "" }
+        ],
+        "totalFees": 2700,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "2700",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "0.4 kms",
+      "hasSurge": false,
+      "sla": {
+        "restaurantId": "335166",
+        "deliveryTime": 14,
+        "minDeliveryTime": 14,
+        "maxDeliveryTime": 14,
+        "lastMileTravel": 0.4000000059604645,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": false,
+      "avgRating": "4.8",
+      "totalRatings": 100,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "82520",
+      "name": "Bhaina Hotel And Fast Food",
+      "uuid": "e3fc496b-0c1a-4e4a-9948-87548052bf2a",
+      "city": "57",
+      "area": "Unit 4",
+      "totalRatingsString": "10000+ ratings",
+      "cloudinaryImageId": "mejvlnqz6ux58juoyetq",
+      "cuisines": ["Indian", "Chinese", "Biryani", "Oriya"],
+      "tags": [],
+      "costForTwo": 20000,
+      "costForTwoString": "₹200 FOR TWO",
+      "deliveryTime": 45,
+      "minDeliveryTime": 45,
+      "maxDeliveryTime": 45,
+      "slaString": "45 MINS",
+      "lastMileTravel": 3.5,
+      "slugs": {
+        "restaurant": "bhaina-hotel-and-fast-food-sahid-nagar-sahid-nagar",
+        "city": "bhubaneswar"
+      },
+      "cityState": "57",
+      "address": "Unit 4  , in front of reliance fresh,Bhuma Nagar",
+      "locality": "AG Colony",
+      "parentId": 9838,
+      "unserviceable": false,
+      "veg": false,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "aggregatedDiscountInfo": {
+        "header": "Flat ₹125 off",
+        "shortDescriptionList": [
+          {
+            "meta": "Flat ₹125 off on orders above ₹249",
+            "discountType": "Flat",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "Flat ₹125 off on orders above ₹249 | Use code MATCHDEAL125",
+            "discountType": "Flat",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "aggregatedDiscountInfoV2": {
+        "header": "₹125 OFF",
+        "shortDescriptionList": [
+          {
+            "meta": "Use MATCHDEAL125",
+            "discountType": "Flat",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "Flat ₹125 off on orders above ₹249 | Use code MATCHDEAL125",
+            "discountType": "Flat",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          { "name": "distance", "fee": 3400, "message": "" },
+          { "name": "time", "fee": 0, "message": "" },
+          { "name": "special", "fee": 0, "message": "" }
+        ],
+        "totalFees": 3400,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "3400",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "3.5 kms",
+      "hasSurge": false,
+      "sla": {
+        "restaurantId": "82520",
+        "deliveryTime": 45,
+        "minDeliveryTime": 45,
+        "maxDeliveryTime": 45,
+        "lastMileTravel": 3.5,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": false,
+      "avgRating": "3.6",
+      "totalRatings": 10000,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "486363",
+      "name": "Myfroyoland",
+      "uuid": "2918407e-2dba-4d08-9339-bb4bc57cf704",
+      "city": "57",
+      "area": "Jayadev Vihar",
+      "totalRatingsString": "Too Few Ratings",
+      "cloudinaryImageId": "sh9jwbuki80d8l9phwmp",
+      "cuisines": ["Ice Cream", "Desserts", "Snacks"],
+      "tags": [],
+      "costForTwo": 40000,
+      "costForTwoString": "₹400 FOR TWO",
+      "deliveryTime": 34,
+      "minDeliveryTime": 34,
+      "maxDeliveryTime": 34,
+      "slaString": "34 MINS",
+      "lastMileTravel": 0.4000000059604645,
+      "slugs": {
+        "restaurant": "myfroyoland-sahid-nagar-sahid-nagar",
+        "city": "bhubaneswar"
+      },
+      "cityState": "57",
+      "address": "Ground Floor, The Pal Heights Mall, Nandankanan Rd, Jayadev Vihar, Bhubaneswar, Odisha 751014",
+      "locality": "The Pal Heights Mall",
+      "parentId": 4852,
+      "unserviceable": false,
+      "veg": false,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "aggregatedDiscountInfo": {
+        "header": "40% off",
+        "shortDescriptionList": [
+          {
+            "meta": "40% off | Use TRYNEW",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "40% off up to ₹80 | Use code TRYNEW",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "aggregatedDiscountInfoV2": {
+        "header": "40% OFF",
+        "shortDescriptionList": [
+          {
+            "meta": "Use TRYNEW",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "40% off up to ₹80 | Use code TRYNEW",
+            "discountType": "Percentage",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          { "name": "distance", "fee": 2700, "message": "" },
+          { "name": "time", "fee": 0, "message": "" },
+          { "name": "special", "fee": 0, "message": "" }
+        ],
+        "totalFees": 2700,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "2700",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "0.4 kms",
+      "hasSurge": false,
+      "sla": {
+        "restaurantId": "486363",
+        "deliveryTime": 34,
+        "minDeliveryTime": 34,
+        "maxDeliveryTime": 34,
+        "lastMileTravel": 0.4000000059604645,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": false,
+      "avgRating": "--",
+      "totalRatings": 0,
+      "new": false
+    },
+    "subtype": "basic"
+  },
+  {
+    "type": "restaurant",
+    "data": {
+      "type": "F",
+      "id": "223894",
+      "name": "Asia Seven - Sizzling Chinese",
+      "uuid": "bd1f5ae9-bfe4-4155-9239-ec07508c5890",
+      "city": "57",
+      "area": "Bapuji Nagar",
+      "totalRatingsString": "1000+ ratings",
+      "cloudinaryImageId": "b4ca94ca747927e9a728689dae0c8b30",
+      "cuisines": ["Chinese", "Asian", "Pan-Asian", "Thai"],
+      "tags": [],
+      "costForTwo": 40000,
+      "costForTwoString": "₹400 FOR TWO",
+      "deliveryTime": 35,
+      "minDeliveryTime": 35,
+      "maxDeliveryTime": 35,
+      "slaString": "35 MINS",
+      "lastMileTravel": 6.199999809265137,
+      "slugs": {
+        "restaurant": "asia-seven-express-utkal-kanika-galleria-kalpana-square-sahid-nagar",
+        "city": "bhubaneswar"
+      },
+      "cityState": "57",
+      "address": "FC-305, THIRD FLOOR, UTKAL KANIKA GALLERIA, KALPANA FC-305, THIRD FLOOR, UTKAL KANIKA GALLERIA, KALPANA SQUARE, OPP STATE MUSEUM &amp; BMC, GAUTAM NAGAR, BHUBANESWAR, ODISHA-7510142 SQUARE, OPP STATE",
+      "locality": "Kalpana Square",
+      "parentId": 3521,
+      "unserviceable": false,
+      "veg": false,
+      "select": false,
+      "favorite": false,
+      "tradeCampaignHeaders": [],
+      "aggregatedDiscountInfo": {
+        "header": "Flat ₹150 off",
+        "shortDescriptionList": [
+          {
+            "meta": "Flat ₹150 off on orders above ₹699",
+            "discountType": "Flat",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "Flat ₹150 off on orders above ₹699 | Use code FLAT150",
+            "discountType": "Flat",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "aggregatedDiscountInfoV2": {
+        "header": "₹150 OFF",
+        "shortDescriptionList": [
+          {
+            "meta": "Use FLAT150",
+            "discountType": "Flat",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "descriptionList": [
+          {
+            "meta": "Flat ₹150 off on orders above ₹699 | Use code FLAT150",
+            "discountType": "Flat",
+            "operationType": "RESTAURANT"
+          }
+        ],
+        "subHeader": "",
+        "headerType": 0,
+        "superFreedel": ""
+      },
+      "ribbon": [{ "type": "PROMOTED" }],
+      "chain": [],
+      "feeDetails": {
+        "fees": [
+          { "name": "distance", "fee": 4800, "message": "" },
+          { "name": "time", "fee": 0, "message": "" },
+          { "name": "special", "fee": 0, "message": "" }
+        ],
+        "totalFees": 4800,
+        "message": "",
+        "title": "Delivery Charge",
+        "amount": "4800",
+        "icon": ""
+      },
+      "availability": {
+        "opened": true,
+        "nextOpenMessage": "",
+        "nextCloseMessage": ""
+      },
+      "longDistanceEnabled": 0,
+      "rainMode": "NONE",
+      "thirdPartyAddress": false,
+      "thirdPartyVendor": "",
+      "adTrackingID": "cid=6380216~p=19~eid=00000187-d0d6-7354-1470-b13e00a6131d",
+      "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+      },
+      "lastMileTravelString": "6.1 kms",
+      "hasSurge": false,
+      "sla": {
+        "restaurantId": "223894",
+        "deliveryTime": 35,
+        "minDeliveryTime": 35,
+        "maxDeliveryTime": 35,
+        "lastMileTravel": 6.199999809265137,
+        "lastMileDistance": 0,
+        "serviceability": "SERVICEABLE",
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "iconType": "EMPTY"
+      },
+      "promoted": true,
+      "avgRating": "3.9",
+      "totalRatings": 1000,
+      "new": false
+    },
+    "subtype": "basic"
+  }
+]
