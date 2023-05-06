@@ -148,57 +148,82 @@
 
 - A normal js utility function by react to for state management.
 - 2 hooks that are mostly used:
-  - useState() - Superpowerful state variable
-  - useEffect()
-- syntax:
 
-```
-  const [restaurantList, functionToUpdateStateVariable] = useState(defaultValue);
-```
+  - `useState()` - Superpowerful state variable
 
-- ex:
+    - syntax:
 
-```
-  import restaurants from '../../restaurants.json';
-  import RestaurantCard from './RestaurantCard';
-  import { useState } from 'react';
+    ```
+      const [restaurantList, functionToUpdateStateVariable] = useState(defaultValue);
+    ```
 
-  const Body = () => {
-    // Local state variable
-    const [restaurantList, setRestaurantList] = useState(restaurants);
+    - ex:
 
-    return (
-      <div className="body">
-        <div className="filter">
-          <button
-            className="filter-btn"
-            onClick={() => {
-              const filteredList = restaurants.filter(
-                (res) => res.data.avgRating > 4
-              );
-              setRestaurantList(filteredList);
-            }}
-          >
-            Top Rated Restaurants
-          </button>
-        </div>
-        <div className="res-container">
-          {/* Restaurant Card */}
-          {restaurantList.map((restaurant) => (
-            <RestaurantCard key={restaurant.data.id} resData={restaurant} />
-          ))}
-        </div>
-      </div>
-    );
-  };
-```
+    ```
+      import restaurants from '../../restaurants.json';
+      import RestaurantCard from './RestaurantCard';
+      import { useState } from 'react';
 
-- We can not update function assigned with useState()
-- Whenever any state variable chnages react re-render the UI.
+      const Body = () => {
+        // Local state variable
+        const [restaurantList, setRestaurantList] = useState(restaurants);
+
+        return (
+          <div className="body">
+            <div className="filter">
+              <button
+                className="filter-btn"
+                onClick={() => {
+                  const filteredList = restaurants.filter(
+                    (res) => res.data.avgRating > 4
+                  );
+                  setRestaurantList(filteredList);
+                }}
+              >
+                Top Rated Restaurants
+              </button>
+            </div>
+            <div className="res-container">
+              {/* Restaurant Card */}
+              {restaurantList.map((restaurant) => (
+                <RestaurantCard key={restaurant.data.id} resData={restaurant} />
+              ))}
+            </div>
+          </div>
+        );
+      };
+    ```
+
+    - We can not update function assigned with useState()
+    - Whenever any state variable changes react re-render the UI.
+    - React refresh the required Component only, not any other components(i.e. if a state variable is in `Header Component` then react will only refresh Hedaer component only).
+
+  - `useEffect()` - Call a function when dependencies chnaged
+    - syntax
+    ```
+      useEffect(() => {
+        console.log('call this when dependecy variables changes')
+      }, [dependecyVariable])
+    ```
+  - If no dependecy then callback function will be called only once & will be called after render.
+  - If dependecy present then callback function will be called once after initial render + everytime after re-render.
+  - Application: (To do API call once page rendered)
+
+  ```
+    useEffect(() => {
+     // API call
+    }, [])
+  ```
 
 13. What is `React Fiber`?
 
 - Also known as `Reconciliation Algorithm`. - came up in react 16
 - React creates a virtual DOM (represenatation of actual DOM, is a nested object).
 - This algo find the diff b/w old & new virtual DOM & optimally update the DOM.
-- `https://github.com/acdlite/react-fiber-architecture`
+- Read more: https://github.com/acdlite/react-fiber-architecture
+
+14. Shimmer Effect in UI.
+
+- It is used when there is no data.
+
+15. Conditional rendering.
