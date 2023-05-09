@@ -197,22 +197,40 @@
     - We can not update function assigned with useState()
     - Whenever any state variable changes react re-render the UI.
     - React refresh the required Component only, not any other components(i.e. if a state variable is in `Header Component` then react will only refresh Hedaer component only).
+    - Do not create outside component.
 
-  - `useEffect()` - Call a function when dependencies chnaged
+  - `useEffect()` - Call a function when dependencies changed.
+    - is a hook which is called after component is rendered.
     - syntax
     ```
       useEffect(() => {
         console.log('call this when dependecy variables changes')
       }, [dependecyVariable])
     ```
-  - If no dependecy then callback function will be called only once & will be called after render.
-  - If dependecy present then callback function will be called once after initial render + everytime after re-render.
   - Application: (To do API call once page rendered)
 
   ```
     useEffect(() => {
      // API call
     }, [])
+  ```
+
+  - Case1: Empty dependency array => useEffect will be called only once after render.
+
+  ```
+  useEffect(() => {function()}, [])
+  ```
+
+  - Case2: No dependency array => useEffect will be called everytime after each render.
+
+  ```
+  useEffect(() => {function()}, )
+  ```
+
+  - Case3: If dependecy array present then callback function will be called once after initial render + everytime after the dependecy value change.
+
+  ```
+  useEffect(() => {function()}, [dependecy])
   ```
 
 13. What is `React Fiber`?
