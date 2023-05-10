@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import restaurants from '../../restaurants.json';
 import { SWIGGY_RES_API } from '../utils/constants';
 import RestaurantCard from './RestaurantCard';
@@ -24,9 +25,9 @@ const Body = () => {
 
   if (!allRestaurantList) return null;
 
-  if (filteredRestaurantList?.length == 0) {
-    return <h1>No restaurant match the search!</h1>;
-  }
+  // if (filteredRestaurantList?.length == 0) {
+  //   return <h1>No restaurant match the search!</h1>;
+  // }
 
   return allRestaurantList.length === 0 ? (
     <Shimmer />
@@ -73,7 +74,9 @@ const Body = () => {
       <div className="res-container">
         {/* Restaurant Card */}
         {filteredRestaurantList?.map((restaurant) => (
-          <RestaurantCard key={restaurant.data.id} resData={restaurant} />
+          <Link to={`/restaurant/${restaurant.data.id}`}>
+            <RestaurantCard key={restaurant.data.id} resData={restaurant} />
+          </Link>
         ))}
       </div>
     </div>

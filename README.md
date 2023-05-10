@@ -245,3 +245,62 @@
 - It is used when there is no data.
 
 15. Conditional rendering.
+
+16. Types of Routing:
+
+- Client side:
+- Server side:
+
+17. Dynamic Component ?
+
+- Can be acheived using `<Outlet />` it's from `react-router-dom` pkg.
+-
+
+```
+  const AppLayout = () => {
+    return (
+      <div className="app">
+        <Header />
+        {/* Dynamic Component */}
+        <Outlet />
+      </div>
+    );
+  };
+
+  const appRouter = createBrowserRouter([
+    {
+      path: '/',
+      element: <AppLayout />,
+      errorElement: <Error />,
+      children: [
+        {
+          path: '/',
+          element: <Body />,
+        },
+        {
+          path: '/about',
+          element: <About />,
+        }
+      ]
+    }
+  ]);
+
+  const root = ReactDOM.createRoot(document.getElementById('root'));
+
+  root.render(<RouterProvider router={appRouter} />);
+
+```
+
+- The children goes to `<Outlet/>` component as per path defined.
+
+18. Dynamic Routing ?
+
+- Can be achived using `{element: <RestaurantMenu />,path: '/restaurant/:resId'}` & assigning to children params.
+
+- resId can be read using ` const { resId } = useParams()`.
+
+19. `formik pkg` is really useful to work with forms.
+
+20. Use `const err = useRouteError()` to get error page information.
+
+21. `<Link>` component internally use `<a>` but it doesnot refresh whole page.
