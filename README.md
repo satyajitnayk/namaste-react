@@ -254,7 +254,7 @@
 17. Dynamic Component ?
 
 - Can be acheived using `<Outlet />` it's from `react-router-dom` pkg.
--
+- Childrens are always rendered inside `<Outlet />`
 
 ```
   const AppLayout = () => {
@@ -304,3 +304,40 @@
 20. Use `const err = useRouteError()` to get error page information.
 
 21. `<Link>` component internally use `<a>` but it doesnot refresh whole page.
+
+22. Class based component ?
+
+- Need to extends `React.Component`
+- Absolute necessary to use `render()` inside the class to use it, it returns som JSX.
+- `componentDidMount()` is a function that is called after render & it's the best place to do `API call`.
+
+23. Why we do `super(props)` in class based component?
+
+- In React, super(props) is used in a class component's constructor to call the constructor of the parent class and pass in the props object as an argument.
+
+- The props object contains any data that is passed to the component from its parent component. When you extend a class component in React, you need to call super() in the constructor before you can access this.props. By passing props to super(), you are making sure that the parent class constructor is properly initialized and that you can access the props object in the child component.
+
+- Here is an example of a typical constructor in a React
+
+```
+class MyComponent extends React.Component {
+  constructor(props) {
+    super(props);
+    // best pllace to create a state variable
+    // This is similar to const [count] = useState(0) in functional component
+    this.state = {
+      count: 0,
+    };
+  }
+  // component methods here
+  render() {
+    return (
+      <button onClick={() => {
+        this.setState({ count: this.state.count + 1 });
+      }}>
+    )
+  }
+}
+```
+
+- By calling super(props), we ensure that the parent class constructor is properly initialized and that this.props is accessible in the child component. This is necessary because React relies heavily on the props object to pass data between components in a React application.
