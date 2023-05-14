@@ -386,6 +386,7 @@ class MyComponent extends React.Component {
   componentDidUpdate() {
     // called after api call
   }
+  // used to do cleanup
   componentWillUnmount() {
     // we need to call clear interval
     clearInterval(this.timer);

@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom';
-import restaurants from '../../restaurants.json';
-import { SWIGGY_RES_API } from '../utils/constants';
+import { SWIGGY_RES_API, FILTER_BY } from '../utils/constants';
 import RestaurantCard from './RestaurantCard';
 import Shimmer from './Shimmer';
 import { useEffect, useState } from 'react';
+import { getFilteredData } from '../utils/helper';
 
 const Body = () => {
   // Local state variable
@@ -25,10 +25,6 @@ const Body = () => {
 
   if (!allRestaurantList) return null;
 
-  // if (filteredRestaurantList?.length == 0) {
-  //   return <h1>No restaurant match the search!</h1>;
-  // }
-
   return allRestaurantList.length === 0 ? (
     <Shimmer />
   ) : (
@@ -47,9 +43,11 @@ const Body = () => {
           <button
             className="search-btn"
             onClick={() => {
-              const filteredList = allRestaurantList.filter((res) =>
-                res.data.name.toLowerCase().includes(searchText?.toLowerCase())
-              );
+              const filteredList = getFilteredData({
+                restaurants: allRestaurantList,
+                filterBy: FILTER_BY.NAME,
+                filterData: searchText,
+              });
               setFilteredRestaurantList(filteredList);
             }}
           >
@@ -60,9 +58,11 @@ const Body = () => {
           <button
             className="filter-btn"
             onClick={() => {
-              const filteredList = allRestaurantList.filter(
-                (res) => res.data.avgRating > 4
-              );
+              const filteredList = getFilteredData({
+                restaurants: allRestaurantList,
+                filterBy: FILTER_BY.RATING,
+                filterData: 4,
+              });
               setFilteredRestaurantList(filteredList);
             }}
           >
