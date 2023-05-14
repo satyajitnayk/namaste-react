@@ -9,7 +9,19 @@ class Profile extends React.Component {
   }
 
   componentDidMount() {
+    this.timer = setInterval(() => {
+      console.log('TIME INTERVAL');
+    }, 1000);
     // function called after render.
+  }
+
+  componentDidUpdate() {
+    // called after api call
+  }
+
+  componentWillUnmount() {
+    // we need to call clear interval
+    clearInterval(this.timer);
   }
 
   render() {

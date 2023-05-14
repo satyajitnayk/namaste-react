@@ -207,6 +207,7 @@
         console.log('call this when dependecy variables changes')
       }, [dependecyVariable])
     ```
+    - We can't make call back in useEffect async.
   - Application: (To do API call once page rendered)
 
   ```
@@ -308,7 +309,7 @@
 22. Class based component ?
 
 - Need to extends `React.Component`
-- Absolute necessary to use `render()` inside the class to use it, it returns som JSX.
+- Absolute necessary to use `render()` inside the class to use it, it returns some JSX.
 - `componentDidMount()` is a function that is called after render & it's the best place to do `API call`.
 
 23. Why we do `super(props)` in class based component?
@@ -341,3 +342,67 @@ class MyComponent extends React.Component {
 ```
 
 - By calling super(props), we ensure that the parent class constructor is properly initialized and that this.props is accessible in the child component. This is necessary because React relies heavily on the props object to pass data between components in a React application.
+
+24. `React Lifecycle`?
+
+- ![react lifecycle](./imgs/react_lifecycle.png)
+- During rendering there are 2 phases:
+  - `render phase`: It includes constructor() & render()
+  - `commit phase`: Works with DOM, run side effects, schedule updates.
+
+25. Why we can't make the callback function inside `useEffect()` as async ?
+
+- The reason you can't make the callback function in useEffect async is that useEffect expects its callback function to either return a cleanup function or nothing at all.
+
+- When you mark a function as async, it will always return a promise. However, useEffect is not designed to handle promises returned by its callback function.
+
+- If you make the useEffect callback function async, you may encounter unexpected behavior and bugs in your code. This is because useEffect may not wait for the promise to resolve before running the cleanup function or running the effect again.
+
+- For example, if you have a useEffect hook that fetches some data asynchronously and updates the state when the data is available, you might be tempted to make the callback function async:
+
+- ```
+  useEffect(async () => {
+    const response = await fetch('https://example.com/data');
+    const data = await response.json();
+    setState(data);
+  }, []);
+  ```
+
+- However, this code will not work as expected. Instead of waiting for the promise to resolve before updating the state, useEffect will run the cleanup function (if any) and/or the effect function again. This could lead to race conditions, where the state is updated with stale data or even cause infinite loops.
+
+- To avoid these issues, it's recommended to keep the useEffect callback function synchronous and extract any asynchronous operations into separate functions that can be called from within the useEffect callback. This way, you can ensure that the effect runs in the correct order and the state is updated with the latest data.
+
+- We need to unmount/do cleanup when we leave page
+
+- In Class Based Component
+
+```
+  componentDidMount() {
+    this.timer = setInterval(() => {
+      console.log('TIME INTERVAL');
+    }, 1000);
+    // function called after render.
+  }
+  componentDidUpdate() {
+    // called after api call
+  }
+  componentWillUnmount() {
+    // we need to call clear interval
+    clearInterval(this.timer);
+  }
+```
+
+- In functional Component
+
+```
+useEffect(()=>{
+  const timer = setInterval(() => {
+      console.log('TIME INTERVAL');
+    }, 1000);
+
+  // the below fnction will be called while unmounting
+  return () => {
+    clearInterval(timer);
+  }
+},[])
+```
