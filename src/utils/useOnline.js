@@ -7,7 +7,6 @@ const useOnline = () => {
     window.ononline = () => {
       setIsOnline(true);
     };
-
     window.onoffline = () => {
       setIsOnline(false);
     };

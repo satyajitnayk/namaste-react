@@ -407,3 +407,25 @@ useEffect(()=>{
   }
 },[])
 ```
+
+26. Loading require js files as per requirement.
+
+- chunking = code splitting = dynamic bundling
+  = lazy loading = on demand loading = dynamic import
+
+- Upon on demand loading -> upon render -> suspend loading
+- To fix above problem we use `Suspense` from react lib
+- Example: Handle
+
+```
+  import {lazy, Suspense} from 'react';
+  <!-- on demand loading -->
+  import Instamart = lazy(() => import('./component/Instamart));
+
+  return (
+    <Suspense fallback={<Shimmer/>}>
+      <Instamart/>
+    </Suspense>);
+```
+
+- note: Never write lazy() inside a component.
