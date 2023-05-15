@@ -1,8 +1,8 @@
-import { useState } from 'react';
-import { SWIGGY_RES_MENU_API } from '../utils/constants';
+import { useEffect, useState } from 'react';
+import { SWIGGY_RES_MENU_API } from './constants';
 
 /**Custom Hook to get restaurant info */
-const useRestaurant = (resId) => {
+const useRestaurantDetails = (resId) => {
   const [restaurant, setRestaurant] = useState(null);
   // get data from API
   useEffect(() => {
@@ -20,4 +20,4 @@ const useRestaurant = (resId) => {
   return restaurant;
 };
 
-export default useRestaurant;
+export default useRestaurantDetails;

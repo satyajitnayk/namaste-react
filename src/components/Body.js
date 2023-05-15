@@ -4,6 +4,7 @@ import RestaurantCard from './RestaurantCard';
 import Shimmer from './Shimmer';
 import { useEffect, useState } from 'react';
 import { getFilteredData } from '../utils/helper';
+import useOnline from '../utils/useOnline';
 
 const Body = () => {
   // Local state variable
@@ -14,6 +15,12 @@ const Body = () => {
   useEffect(() => {
     getRestaurants();
   }, []);
+
+  const isOnline = useOnline();
+
+  if (!isOnline) {
+    return <h1>🛑 Offline, Please check your internet connection!</h1>;
+  }
 
   async function getRestaurants() {
     const data = await fetch(SWIGGY_RES_API);
