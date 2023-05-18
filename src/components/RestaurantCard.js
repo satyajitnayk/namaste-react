@@ -12,13 +12,13 @@ const RestaurantCard = (props) => {
   } = props.resData.data;
   // console.log(props.resData);
   return (
-    <div className="res-card">
+    <div className="w-56 p-2 m-2 shadow-lg bg-pink-100">
       <img
         className="res-logo"
         alt="res logo"
         src={CDN_URL + cloudinaryImageId}
       />
-      <h3>{name}</h3>
+      <h3 className="font-bold text-xl">{name}</h3>
       <h4>
         {cuisines[0]}, {costForTwoString.toLowerCase()}, {slugs.city}
       </h4>

@@ -429,3 +429,11 @@ useEffect(()=>{
 ```
 
 - note: Never write lazy() inside a component.
+
+27. Ways to addd css to react project?
+
+- Normal native css
+- SCSS
+- Inline css
+- Component Libraries - Material UI, Ant UI, Base UI etc.
+- Tailwind Css Framework

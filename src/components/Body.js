@@ -30,18 +30,19 @@ const Body = () => {
   ) : (
     <div className="body">
       <div className="search-filter-container">
-        <div className="search-container">
+        <div className="search-container p-5 bg-pink-50 my-4">
           <input
             type="text"
-            className="search-input"
+            className="focus:bg-cyan-100 p-2 m-2"
             placeholder="Search"
             value={searchText}
             onChange={(e) => {
               setSearchText(e.target.value);
             }}
           />
+
           <button
-            className="search-btn"
+            className="search-btn p-2 m-2 bg-purple-700 text-white rounded-md hover:bg-purple-900"
             onClick={() => {
               const filteredList = getFilteredData({
                 restaurants: allRestaurantList,
@@ -71,7 +72,7 @@ const Body = () => {
         </div>
       </div>
 
-      <div className="res-container">
+      <div className="flex flex-wrap items-stretch">
         {/* Restaurant Card */}
         {filteredRestaurantList?.map((restaurant) => (
           <Link to={`/restaurant/${restaurant.data.id}`}>

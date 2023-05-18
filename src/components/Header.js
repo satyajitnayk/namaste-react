@@ -8,21 +8,19 @@ const Header = () => {
   const isOnline = useOnline();
 
   return (
-    <div className="header">
-      <div className="logo-container">
-        <img className="logo" src={LOGO_URL}></img>
-      </div>
+    <div className="flex justify-between bg-pink-200 shadow-md">
+      <img className="h-28 p-2" src={LOGO_URL}></img>
       <div className="nav-items">
-        <ul>
-          <li>
+        <ul className="flex py-10">
+          <li className="px-2">
             <Link to="/">Home </Link>
           </li>
 
-          <li>
+          <li className="px-2">
             <Link to="/about">About Us </Link>
           </li>
 
-          <li>
+          <li className="px-2">
             <Link to="/contact">Contact Us</Link>
           </li>
           <li>Cart</li>
