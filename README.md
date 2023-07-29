@@ -146,7 +146,7 @@
 
 12. What is a `React Hook` ?
 
-- A normal js utility function by react to for state management.
+- A normal js utility function by react for state management.
 - 2 hooks that are mostly used:
 
   - `useState()` - Superpowerful state variable
@@ -196,8 +196,8 @@
 
     - We can not update function assigned with useState()
     - Whenever any state variable changes react re-render the UI.
-    - React refresh the required Component only, not any other components(i.e. if a state variable is in `Header Component` then react will only refresh Hedaer component only).
-    - Do not create outside component.
+    - React refresh the required Component only, not any other components(i.e. if a state variable is in `Header Component` then react will only refresh Header component only).
+    - Do not create hook outside the component it specific to.
 
   - `useEffect()` - Call a function when dependencies changed.
     - is a hook which is called after component is rendered.
@@ -236,8 +236,8 @@
 
 13. What is `React Fiber`?
 
-- Also known as `Reconciliation Algorithm`. - came up in react 16
-- React creates a virtual DOM (represenatation of actual DOM, is a nested object).
+- Also known as `Reconciliation Algorithm` - came up in react 16.
+- React creates a virtual DOM (representation of actual DOM. It is a nested object).
 - This algo find the diff b/w old & new virtual DOM & optimally update the DOM.
 - Read more: https://github.com/acdlite/react-fiber-architecture
 
