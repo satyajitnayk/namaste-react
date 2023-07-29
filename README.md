@@ -37,7 +37,7 @@
 - Make the developers life easy.
 - JSX is not HTML inside Javascript, but HTML/XML like syntax.
 - Both will print same object. But since jsx format is more readable so we are going to use it.
-  ```
+  ```javascript
     const heading = React.createElement(
     'h1',
     { id: 'heading' },
@@ -60,13 +60,13 @@
 - functional component(latest standard)
   - normal js function that returns a JSX code/ React element(s).
   - ex:
-  ```
+  ```javascript
     const FunctionalComponent = () => {
       return (some JSX)
     }
   ```
 - Components can be used inside other component (Also called component composition)
-  ```
+  ```javascript
     const TitleComponent = () => (
       <h1 id="heading" className="heading" tabIndex={1}>
         Namaste React 🚀 using JSX
@@ -85,7 +85,7 @@
 
 6. How to put ReactElement inside a ReactComponent & vice versa?
 
-- ```
+- ```javascript
     const Title =(
       <h1 id="heading" className="heading" tabIndex={1}>
         Namaste React 🚀 using JSX
@@ -106,7 +106,7 @@
 
 - Used to wrap multiple html elements with out any div tag.
 - Behaves as an empty tag.
-- ```
+- ```javascript
     <React.Fragment>
       <div>Hello</hello>
       <div>I am Satya</hello>
@@ -114,7 +114,7 @@
   ```
 
 - The above can be written like(`<>` is short hand for `<React.Fragment>`)
-  ```
+  ```javascript
     <>
       <div>Hello</hello>
       <div>I am Satya</hello>
@@ -159,7 +159,7 @@
 
     - ex:
 
-    ```
+    ```javascript
       import restaurants from '../../restaurants.json';
       import RestaurantCard from './RestaurantCard';
       import { useState } from 'react';
@@ -202,7 +202,7 @@
   - `useEffect()` - Call a function when dependencies changed.
     - is a hook which is called after component is rendered.
     - syntax
-    ```
+    ```javascript
       useEffect(() => {
         console.log('call this when dependecy variables changes')
       }, [dependecyVariable])
@@ -210,7 +210,7 @@
     - We can't make call back in useEffect async.
   - Application: (To do API call once page rendered)
 
-  ```
+  ```javascript
     useEffect(() => {
      // API call
     }, [])
@@ -218,19 +218,19 @@
 
   - Case1: Empty dependency array => useEffect will be called only once after render.
 
-  ```
+  ```javascript
   useEffect(() => {function()}, [])
   ```
 
   - Case2: No dependency array => useEffect will be called everytime after each render.
 
-  ```
+  ```javascript
   useEffect(() => {function()}, )
   ```
 
   - Case3: If dependecy array present then callback function will be called once after initial render + everytime after the dependecy value change.
 
-  ```
+  ```javascript
   useEffect(() => {function()}, [dependecy])
   ```
 
@@ -257,7 +257,7 @@
 - Can be acheived using `<Outlet />` it's from `react-router-dom` pkg.
 - Childrens are always rendered inside `<Outlet />`
 
-```
+```javascript
   const AppLayout = () => {
     return (
       <div className="app">
@@ -320,7 +320,7 @@
 
 - Here is an example of a typical constructor in a React
 
-```
+```javascript
 class MyComponent extends React.Component {
   constructor(props) {
     super(props);
@@ -360,7 +360,7 @@ class MyComponent extends React.Component {
 
 - For example, if you have a useEffect hook that fetches some data asynchronously and updates the state when the data is available, you might be tempted to make the callback function async:
 
-- ```
+- ```javascript
   useEffect(async () => {
     const response = await fetch('https://example.com/data');
     const data = await response.json();
@@ -376,7 +376,7 @@ class MyComponent extends React.Component {
 
 - In Class Based Component
 
-```
+```javascript
   componentDidMount() {
     this.timer = setInterval(() => {
       console.log('TIME INTERVAL');
@@ -395,7 +395,7 @@ class MyComponent extends React.Component {
 
 - In functional Component
 
-```
+```javascript
 useEffect(()=>{
   const timer = setInterval(() => {
       console.log('TIME INTERVAL');
@@ -417,7 +417,7 @@ useEffect(()=>{
 - To fix above problem we use `Suspense` from react lib
 - Example: Handle
 
-```
+```javascript
   import {lazy, Suspense} from 'react';
   <!-- on demand loading -->
   import Instamart = lazy(() => import('./component/Instamart));
